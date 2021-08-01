@@ -1137,7 +1137,7 @@ keyboard.inline_keyboard = {
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/JAXSO0N&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
-if text == 'جاكسون' or text == 'المطور جاكسون' or text == 'محمد مطور السورس' or text =='تيرارارار' then
+if text == 'mmmm' or text == 'المطور hhjj' or text == 'محمد مطور السورس' or text =='تيرارارار' then
 local Text =[[
 
 
@@ -1191,7 +1191,7 @@ keyboard = {}
 keyboard.inline_keyboard = {
 
 {
-{text = '𝐒𝐨𝐮𝐫𝐜𝐞 𝐏𝐫𝐨𝐠𝐫𝐚𝐦𝐦𝐞𝐫𝐬', url = "https://t.me/US_OLIANO"},
+{text = '𝐒𝐨𝐮𝐫𝐜𝐞 𝐏𝐫𝐨𝐠𝐫𝐚𝐦𝐦𝐞𝐫𝐬', url = "https://t.me/J_ax_s_o_N"},
 },
 {
 {text = '𝑺𝑶𝑼𝑹𝑪𝑬 𝑱𝑨𝑿𝑺𝑶𝑵', url = "https://t.me/J_ax_s_o_N"}
@@ -1208,7 +1208,7 @@ keyboard = {}
 keyboard.inline_keyboard = {
 
 {
-{text = '❨ 𝐓𝐖𝐀𝐒𝐎𝐋 ♬  ❩' , url = "https://t.me/E_H_M_BOT"},
+{text = '❨ 𝐓𝐖𝐀𝐒𝐎𝐋 ♬  ❩' , url = "https://t.me/mody_23bot"},
 },
 {
 {text = '𝑺𝑶𝑼𝑹𝑪𝑬 𝑱𝑨𝑿𝑺𝑶𝑵', url = "https://t.me/J_ax_s_o_N"},
@@ -2810,7 +2810,7 @@ keyboard.inline_keyboard = {
 {{text = 'اضف البوت لمجمعتك🦅', url="https://t.me/M0o_oO_DY_2bot?startgroup=new"}},  
 } 
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/@Mody_23bot&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/Mody_23bot&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 
 if text == 'جاكسون' or text == 'المبرمج جاكسون' or text == 'جاكسون مبرمج السورس' or text == 'جاكسون خيري' then
