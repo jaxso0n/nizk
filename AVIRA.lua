@@ -179,7 +179,7 @@ io.popen("mkdir File_Bot")
 io.popen("cd File_Bot && rm -rf commands.lua.1") 
 io.popen("cd File_Bot && rm -rf commands.lua.2") 
 io.popen("cd File_Bot && rm -rf commands.lua.3") 
-io.popen("cd File_Bot && wget https://raw.githubusercontent.com/jaxso0n/olino/main/File_Bot/commands.lua") 
+io.popen("cd File_Bot && wget https://raw.githubusercontent.com/jaxso0n/nizk.git/main/File_Bot/commands.lua") 
 t = "\27[35m".."\nAll Files Started : \n____________________\n"..'\27[m'
 i = 0
 for v in io.popen('ls File_Bot'):lines() do
@@ -1171,7 +1171,7 @@ end
 
 if text == 'تحديث السورس ' and sudo2(msg) then 
 os.execute('rm -rf AVIRA.lua')
-os.execute('wget https://raw.githubusercontent.com/jaxso0n/olino/main/AVIRA.lua')
+os.execute('wget https://raw.githubusercontent.com/jaxso0n/nizk.git/main/AVIRA.lua')
 send(msg.chat_id_, msg.id_,'◉ تم تحديث السورس')
 dofile('AVIRA.lua')  
 end
@@ -2558,9 +2558,9 @@ end
 return false
 end
 os.execute('rm -rf AVIRA.lua')
-os.execute('wget https://raw.githubusercontent.com/jaxso0n/olino/main/AVIRA.lua')
-os.execute('wget https://raw.githubusercontent.com/jaxso0n/olino/main/library')
-os.execute('wget https://raw.githubusercontent.com/jaxso0n/olino/main/File_Bot')
+os.execute('wget https://raw.githubusercontent.com/jaxso0n/nizk.git/main/AVIRA.lua')
+os.execute('wget https://raw.githubusercontent.com/jaxso0n/nizk.git/main/library')
+os.execute('wget https://raw.githubusercontent.com/jaxso0n/nizk.git/main/File_Bot')
 send(msg.chat_id_, msg.id_,' ◉ تم تحديث السورس')
 dofile('AVIRA.lua')  
 end
@@ -2862,27 +2862,21 @@ keyboard.inline_keyboard = {{{text = '  𓌹 ˹ＤＯＮＧＯＬ¹˼ 𓌺 ',url
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/UU_DO_N&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 
-if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or text == 'source' then
+if text ==  السورس  or text ==  سورس  or text ==  يا سورس  or text ==  source  then
 local msg_id = msg.id_/2097152/0.5
 local Text = [[
-╭──── ● ☆ ● ────╮
-☆
-𝒘𝒆𝒍𝒄𝒐𝒎𝒆 𝒕𝒐 𝒔𝒐𝒖𝒓𝒄𝒆   
-𝒐𝒍𝒊𝒂𝒏𝒐 𝒕𝒉𝒆 𝒃𝒆𝒔𝒕 𝒔𝒐𝒖𝒓𝒄𝒆    
-𝒐𝒏 𝒕𝒆𝒍𝒆𝒆𝒈𝒓𝒂𝒎 
-☆
-╰──── ● ☆ ● ────╯
-⍟  𝙱𝙴𝚂𝚃 𝚂𝙾𝚄𝚁𝙲𝙴 𝙾𝙽 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼
-]] 
-keyboard = {}  
-keyboard.inline_keyboard = { 
-{{text =  ☼︎𝐷𝑒𝑣 𝐽𝑎ẋ𝑠𝑜𝑛☼︎ ,url="t.me/JAXSO0N"}}, 
-{{text =  ☼︎𝐷𝑒𝑣 ᗰ๐ᏂᗩᗰＥᗪ☼︎ ,url="t.me/JAXSO0N"}}, 
-{{text =  ❨ 𝑺𝑶𝑼𝑹𝑪𝑬 𝐽𝐴𝑋𝑆𝑂𝑁 ❩  ,url="t.me/J_ax_s_o_N"}}, 
-{{text =  اضف البوت لمجمعتك🦅 , url="https://t.me/M0o_oO_DY_2bot?startgroup=new"}},  
-} 
-local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token.. /sendPhoto?chat_id=  .. msg.chat_id_ ..  &photo=https://t.me/Mody_23bot&caption=  .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+◍ ᴛʜᴇ ʙᴇѕᴛ ᴇɢ ʟụᴀ ѕᴏụʀᴄᴇ ɪɴ ᴛᴇʟᴇɢʀᴀᴍ
+🌖
+◍ ᴘᴍ ᴍᴇ ᴛᴏ ᴍᴀᴋᴇ ʏᴏụʀ ᴏᴡɴ ᴏɴᴇ 🐾
+...
+]]
+keyboard = {} 
+keyboard.inline_keyboard = {
+{{text =    ◍ D𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 𖣌  ,url="t.me/de_vi_d"},{text =   ◍ D𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 𖣌  ,url="t.me/UU_DO_N"}},
+{{text =    ◍ D𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 𖣌  , url="t.me/hr_ba_1"}},
+{{text =     ◍ M𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻𝚂 𖣌   , url="t.me/A_V_I_R_A_1"}},
+}
+https.request("https://api.telegram.org/bot"..token.. /sendanimation?chat_id=  .. msg.chat_id_ ..  &animation=https://t.me/A_V_I_R_A_1/6&caption=  .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 
 if text == 'روايات' or text == 'الروايات' or text == 'ررويات' then
@@ -4600,7 +4594,7 @@ send(msg.chat_id_, msg.id_,t)
 end
 if text == "متجر الملفات" or text == 'المتجر' then
 if sudo2(msg) then
-local Get_Files, res = https.request("https://raw.githubusercontent.com/jaxso0n/olino/main/getfile.json")
+local Get_Files, res = https.request("https://raw.githubusercontent.com/jaxso0n/nizk.git/main/getfile.json")
 if res == 200 then
 local Get_info, res = pcall(JSON.decode,Get_Files);
 vardump(res.plugins_)
@@ -4638,7 +4632,7 @@ t = " ◉ الملف ← "..file.."\n ◉ تم تعطيل ملف \n"
 else
 t = " ◉ بالتاكيد تم تعطيل ملف → "..file.."\n"
 end
-local json_file, res = https.request("https://raw.githubusercontent.com/jaxso0n/olino/main/File_Bot/"..file)
+local json_file, res = https.request("https://raw.githubusercontent.com/jaxso0n/nizk.git/main/File_Bot/"..file)
 if res == 200 then
 os.execute("rm -fr File_Bot/"..file)
 send(msg.chat_id_, msg.id_,t) 
@@ -4658,7 +4652,7 @@ t = " ◉ بالتاكيد تم تفعيل ملف → "..file.." \n"
 else
 t = " ◉ الملف ← "..file.."\n ◉ تم تفعيل ملف \n"
 end
-local json_file, res = https.request("https://raw.githubusercontent.com/jaxso0n/olino/main/File_Bot/"..file)
+local json_file, res = https.request("https://raw.githubusercontent.com/jaxso0n/nizk.git/main/File_Bot/"..file)
 if res == 200 then
 local chek = io.open("File_Bot/"..file,'w+')
 chek:write(json_file)
@@ -13337,7 +13331,7 @@ Msᴀɢ ~ #msgs
 ✰ 𝗖?? - @J_ax_s_o_N ◉
 ]],
 [[
-⌾ | 𝒊𝒅  𓃠 #id .
+⌾ | 𝒊𝒅  ?? #id .
 ⌾ | 𝒖𝒔𝒆𝒓 𓃠 #username .
 ⌾ | 𝒎𝒔𝒈𝒔 𓃠 #msgs .
 ⌾ | 𝒔𝒕𝒂𝒕𝒔 𓃠 #stast .
@@ -14660,7 +14654,7 @@ return false
 end
 local Teext =[[
 
-⩹━━━━⊶❲𝑱𝑨𝑿𝑺𝑶𝑵❳⊷━━━━⩺ 
+⩹━━━━⊶❲??𝑨𝑿𝑺𝑶𝑵❳⊷━━━━⩺ 
 ◉اوامر الوضع - اضف
 ⩹━━━━⊶❲𝑱𝑨𝑿𝑺𝑶𝑵❳⊷━━━━⩺
 ◉اضف / مسح ← رد
