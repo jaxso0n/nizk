@@ -2787,7 +2787,6 @@ keyboard = {}
 keyboard.inline_keyboard = {
 {{text = '☼︎𝐷𝑒𝑣 𝒋𝒂𝒙𝒔𝒐𝒏☼︎',url="t.me/JAXSO0N"},{text = '☼︎𝐷𝑒𝑣 ᗰ๐ᏂᗩᗰＥᗪ☼︎',url="t.me/JA_XS"}},
 {{text = '  ❨ 𝑺𝑶𝑼𝑹𝑪𝑬 𝑱𝑨𝑿𝑺𝑶𝑵 ❩ ',url="https://t.me/J_ax_s_o_N"}}, 
-{{text =  اضف البوت لمجمعتك🦅 , url="https://t.me/M0o_oO_DY_2bot?startgroup=new"}}, 
 }
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/TeST_JXBOT&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
@@ -12503,7 +12502,7 @@ local List = {
 ]],
 [[
 ➞: 𝒔𝒕𝒂𓂅 #stast 𓍯➸💞.
-➞: 𝒖??𝒆𝒓𓂅 #username 𓍯➸💞.
+➞: 𝒖??𝒆𝒓𓂅 #username ??➸💞.
 ➞: 𝒎𝒔𝒈𝒆𓂅 #msgs 𓍯➸💞.
 ➞: 𝒊𝒅 𓂅 #id 𓍯➸💞.
 ➞: 𝗖𝗛 - @J_ax_s_o_N 💞.
@@ -12957,7 +12956,7 @@ Msᴀɢ ~ #msgs
 ]],
 [[
 - ايديڪ  ⁞ #id 💘 ٬
-- يوزرڪ القميل ⁞ #username 💘 ٬
+- يوزرڪ القميل ⁞ #username ?? ٬
 - رسائلڪ  الطيفهہَ ⁞ #msgs 💘 ٬
 - رتبتڪ الحلوه ⁞ #stast  💘٬
 - سحڪاتڪ الفول ⁞ #edit 💘 ٬
