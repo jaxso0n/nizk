@@ -9537,19 +9537,16 @@ send(msg.chat_id_, msg.id_," ❌ تم تعطيل الرابط")
 return false end
 end
 
-if text ==  المطور  or text ==  مطور  then 
-tdcli_function ({ID = "GetUser",user_id_ = SUDO},function(arg,result)  
-local msg_id = msg.id_/2097152/0.5 
-local Text = [[ 
- المطور 
-]] 
-keyboard = {}  
-keyboard.inline_keyboard = { 
-{{text =  ❲ ..result.first_name_.. ❳ ,url="t.me/"..result.username_}}, 
-{{text =  اضف البوت الي مجموعتك 𖠕  ,url="t.me/"..dofile("./vvvvvvInfo.lua").botUserName.."?startgroup=start"}}, 
-} 
-https.request("https://api.telegram.org/bot"..token.. /sendPhoto?chat_id=  .. msg.chat_id_ ..  &photo=https://t.me/ ..result.username_.. &caption=  .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+if text == 'المطور' or text == 'مطور' then
+local TEXT_SUDO = database:get(bot_id..'TEXT_SUDO')
+if TEXT_SUDO then 
+send(msg.chat_id_, msg.id_,TEXT_SUDO)
+else
+tdcli_function ({ID = "GetUser",user_id_ = SUDO},function(arg,result) 
+local Name = '['..result.first_name_..'](tg://user?id='..result.id_..')'
+sendText(msg.chat_id_,Name,msg.id_/2097152/0.5,'md')
 end,nil)
+end
 end
 ---------------------
 
@@ -12490,7 +12487,7 @@ local List = {
 ♬ ꙰  - 𝗖𝗛 - @J_ax_s_o_N ♬.
 ]],
 [[
-🌯 ¦✙• ??𝒔𝒆𝒓𝒏𝒂𝒎𝒆 ➢ ⁞  #username ♬
+🌯 ¦✙• 𝒖𝒔𝒆𝒓𝒏𝒂𝒎𝒆 ➢ ⁞  #username ♬
 🌯 ¦✙• 𝒎𝒔𝒈𝒔 ➢ ⁞  #msgs  📝
 🌯 ¦✙• 𝒓𝒂𝒏𝒌 ➢ ⁞ #stast  
 🌯 ¦✙• 𝒊𝒅 𝒔𝒕𝒂 ➢ ⁞ #id  🆔
@@ -14698,7 +14695,7 @@ local Teext =[[
 
 ♲═───═𝑱𝑨𝑿𝑺𝑶𝑵═───═♲ 
 ♬اوامر تنزيل ورفع
-♲═───═𝑱𝑨𝑿??𝑶𝑵═───═♲
+♲═───═𝑱𝑨𝑿𝑺𝑶𝑵═───═♲
 ♬مميز
 ♬ادمن
 ♬مدير
