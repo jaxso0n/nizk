@@ -2785,7 +2785,8 @@ local Text = [[
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = {
-{{text = '☼︎𝐷𝑒𝑣 𝒋𝒂𝒙𝒔𝒐𝒏☼︎',url="t.me/JAXSO0N"},{text = '☼︎𝐷𝑒𝑣 ᗰ๐ᏂᗩᗰＥᗪ☼︎',url="t.me/JA_XS"}},
+{{text = '☼︎𝐷𝑒𝑣 𝒋𝒂𝒙𝒔𝒐𝒏☼︎',url="t.me/JAXSO0N"},{text = '☼︎𝐷𝑒𝑣 ᗰ๐ᏂᗩᗰＥᗪ
+☼︎',url="t.me/JAXSO0N"}},
 {{text = '  ❨ 𝑺𝑶𝑼𝑹𝑪𝑬 𝑱𝑨𝑿𝑺𝑶𝑵 ❩ ',url="https://t.me/J_ax_s_o_N"}}, 
 }
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/M0o_oO_DY_2bot&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -4185,23 +4186,6 @@ send(msg.chat_id_, msg.id_,' ♲ تم قفل التكرار بالكتم')
 elseif text == 'فتح التكرار' and Mod(msg) then 
 database:hdel(bot_id.."flooding:settings:"..msg.chat_id_ ,"flood")  
 send(msg.chat_id_, msg.id_,' ♲ تم فتح التكرار')
-end
-if text ==  تفعيل الحمايه  and CoSu(msg) and msg.reply_to_message_id_ == 0 then  
-database:set(bot_id.."lock:Bot:kick"..msg.chat_id_, kick )   
-database:set(bot_id.. Bot:Id:Photo ..msg.chat_id_,true)  
-database:hset(bot_id.."flooding:settings:"..msg.chat_id_ ,"flood", kick )   
-database:set(bot_id.."lock:Link"..msg.chat_id_, del )   
-database:set(bot_id.."lock:forward"..msg.chat_id_, del )   
-database:set(bot_id.."lock:Sticker"..msg.chat_id_, del )   
-database:set(bot_id.."lock:Animation"..msg.chat_id_, del )   
-database:set(bot_id.."lock:Video"..msg.chat_id_, del )   
-database:set(bot_id.. lock:Fars ..msg.chat_id_,true)  
-database:set(bot_id.. lock:Fshar ..msg.chat_id_,true)  
-database:set(bot_id.. lock:edit ..msg.chat_id_,true)  
-database:set(bot_id.. lock:tagrvrbot ..msg.chat_id_,true) 
-tdcli_function ({ID = "GetUser",user_id_ = msg.sender_user_id_},function(arg,data)  
-send(msg.chat_id_, msg.id_, \n☉┇تم قفل البوتات بالطرد\n☉┇تم وضع الايدي بدون صوره\n☉┇تم قفل التكرار بالطرد\n☉┇تم قفل الروابط\n☉┇تم قفل التوجيه\n☉┇تم قفل الملصقات\n☉┇تم قفل المتحركه\n☉┇تم قفل الفيديو\n☉┇تم قفل السب\n☉┇تم قفل التعديل\n☉┇تم قفل الفارسيه\n☉┇تم قفل التفليش\n\nتم تفعيل الحمايه بواسطه »>[ ..Rutba(msg.sender_user_id_,msg.chat_id_).. ](T.ME/ ..(data.username_ or  SOPOWERB0T ).. ) )   
-end,nil) 
 end
 --------------------------------------------------------------------------------------------------------------
 if text == 'تحديث' and DevSoFi(msg) then    
