@@ -2774,6 +2774,23 @@ end
 if text == 'جاكسون' or text == 'سورس' or text == 'السورس' or text == 'source' or text == 'يا سورس' or text == 'سوورس' then 
 local msg_id = msg.id_/2097152/0.5  
 local Text = [[ 
+╭──── ● ☆ ● ────╮
+☆
+𝒘𝒆𝒍𝒄𝒐𝒎𝒆 𝒕𝒐 𝒔𝒐𝒖𝒓𝒄𝒆   
+𝒋𝒂𝒙𝒔𝒐𝒏 𝒕𝒉𝒆 𝒃𝒆𝒔𝒕 𝒔𝒐𝒖𝒓𝒄𝒆    
+𝒐𝒏 𝒕𝒆𝒍𝒆𝒆𝒈𝒓𝒂𝒎 
+☆
+╰──── ● ☆ ● ────╯
+⍟  𝙱𝙴𝚂𝚃 𝚂𝙾𝚄𝚁𝙲𝙴 𝙾𝙽 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 
+]] 
+keyboard = {}  
+keyboard.inline_keyboard = {
+{{text = '☼︎𝐷𝑒𝑣 𝒋𝒂𝒙𝒔𝒐𝒏☼︎',url="t.me/JAXSO0N"},{text = '☼︎𝐷𝑒𝑣 𝐽𝑎𝑘𝑠𝑜𝑛☼︎',url="t.me/JAXSO0N"}},
+{{text = '  ❨ 𝑺𝑶𝑼𝑹𝑪𝑬 𝑱𝑨𝑿𝑺𝑶𝑵 ❩ ',url="https://t.me/J_ax_s_o_N"}}, 
+}
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/Mody_23bot&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+end
+
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or text == 'source' then 
 local Text = [[ 
 ╭──── ● ☆ ● ────╮
@@ -13032,7 +13049,7 @@ Msᴀɢ ~ #msgs
 - 𝑚𝑠𝑔𝑠 ⟿ #msgs
 - 𝑖𝑑 ⟿ #id
 - 𝑒𝑑𝑖𝑡 ⟿ #edit
-- 𝑔𝑎???? ⟿ #game
+- 𝑔𝑎𝑚?? ⟿ #game
 - 𝗖𝗛 - @J_ax_s_o_N ♬
 ]],
 [[
