@@ -2771,7 +2771,7 @@ end
 end,nil)   
 end
 
-if text == 'جاكسhmiون' or text == 'سورjnس' or text == 'الjmسورس' or text == 'source' or text== 'يا jkgkسورس' or text == 'سوورس' then 
+if text == 'سورس' or text == 'السورس' or text == 'سوورس' or text == 'source' or text== 'يا اسو' or text == 'سوورس' then 
 local msg_id = msg.id_/2097152/0.5  
 local Text = [[ 
 ╭──── ● ☆ ● ────╮
@@ -2785,13 +2785,14 @@ local Text = [[
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = {
-{{text = '☼︎𝐷𝑒𝑣 𝒋𝒂𝒙𝒔𝒐𝒏☼︎',url="t.me/JAXSO0N"},{text = '☼︎𝐷𝑒𝑣 𝐽𝑎𝑘𝑠𝑜𝑛☼︎',url="t.me/JAXSO0N"}},
+{{text = '☼︎𝐷𝑒𝑣 𝒋𝒂𝒙𝒔𝒐𝒏☼︎',url="t.me/JAXSO0N"},{text = '☼︎𝐷𝑒𝑣 ᗰ๐ᏂᗩᗰＥᗪ☼︎',url="t.me/JA_XS"}},
 {{text = '  ❨ 𝑺𝑶𝑼𝑹𝑪𝑬 𝑱𝑨𝑿𝑺𝑶𝑵 ❩ ',url="https://t.me/J_ax_s_o_N"}}, 
+{{text =  اضف البوت لمجمعتك🦅 , url="https://t.me/M0o_oO_DY_2bot?startgroup=new"}}, 
 }
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/M0o_oO_DY_2bot&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/TeST_JXBOT&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
-if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or text == 'source' then 
+if text == 'السhورس' or text == 'سوkرس' or text == 'يا سjlورس' or text == 'source' then 
 local Text = [[ 
 ╭──── ● ☆ ● ────╮
 ☆
