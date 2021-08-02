@@ -2785,8 +2785,7 @@ local Text = [[
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = {
-{{text = '☼︎𝐷𝑒𝑣 𝒋𝒂𝒙𝒔𝒐𝒏☼︎',url="t.me/JAXSO0N"},{text = '☼︎𝐷𝑒𝑣 ᗰ๐ᏂᗩᗰＥᗪ
-☼︎',url="t.me/JAXSO0N"}},
+{{text = '☼︎𝐷𝑒𝑣 𝒋𝒂𝒙𝒔𝒐𝒏☼︎',url="t.me/JAXSO0N"},{text = '☼︎𝐷𝑒𝑣 𝐽𝑎𝑘𝑠𝑜𝑛☼︎',url="t.me/JAXSO0N"}},
 {{text = '  ❨ 𝑺𝑶𝑼𝑹𝑪𝑬 𝑱𝑨𝑿𝑺𝑶𝑵 ❩ ',url="https://t.me/J_ax_s_o_N"}}, 
 }
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/M0o_oO_DY_2bot&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -12554,7 +12553,7 @@ local List = {
 [[
 ◣: 𝒔𝒕𝒂𓂅 #stast 𓍯➥♡.
 ◣: 𝒖𝒔𝒆𝒓𓂅 #username 𓍯➥♡.
-◣: 𝒎𝒔𝒈𝒆?? #msgs 𓍯➥♡.
+◣: 𝒎𝒔𝒈???? #msgs 𓍯➥♡.
 ◣: 𝒊𝒅 𓂅 #id 𓍯➥♡.
 ◣: 𝗖𝗛 - @J_ax_s_o_N ♬.
 ]],
