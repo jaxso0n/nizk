@@ -2788,10 +2788,10 @@ keyboard.inline_keyboard = {
 {{text = '☼︎𝐷𝑒𝑣 𝒋𝒂𝒙𝒔𝒐𝒏☼︎',url="t.me/JAXSO0N"},{text = '☼︎𝐷𝑒𝑣 𝐽𝑎𝑘𝑠𝑜𝑛☼︎',url="t.me/JAXSO0N"}},
 {{text = '  ❨ 𝑺𝑶𝑼𝑹𝑪𝑬 𝑱𝑨𝑿𝑺𝑶𝑵 ❩ ',url="https://t.me/J_ax_s_o_N"}}, 
 }
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/Mody_23bot&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/M0o_oO_DY_2bot&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
-if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or text == 'source' then 
+if text == 'jhh' or text == 'gh' or text == 'يا vvb' or text == 'source' then 
 local Text = [[ 
 ╭──── ● ☆ ● ────╮
 ☆
