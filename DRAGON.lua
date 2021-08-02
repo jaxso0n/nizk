@@ -2771,27 +2771,10 @@ end
 end,nil)   
 end
 
-if text == 'سورس' or text == 'السورس' or text == 'سوورس' or text == 'source' or text== 'يا اسو' or text == 'سوورس' then 
+if text == 'جاكسون' or text == 'سورس' or text == 'السورس' or text == 'source' or text == 'يا سورس' or text == 'سوورس' then 
 local msg_id = msg.id_/2097152/0.5  
 local Text = [[ 
-╭──── ● ☆ ● ────╮
-☆
-𝒘𝒆𝒍𝒄𝒐𝒎𝒆 𝒕𝒐 𝒔𝒐𝒖𝒓𝒄𝒆   
-𝒋𝒂𝒙𝒔𝒐𝒏 𝒕𝒉𝒆 𝒃𝒆𝒔𝒕 𝒔𝒐𝒖𝒓𝒄𝒆    
-𝒐𝒏 𝒕𝒆𝒍𝒆𝒆𝒈𝒓𝒂𝒎 
-☆
-╰──── ● ☆ ● ────╯
-⍟  𝙱𝙴𝚂𝚃 𝚂𝙾𝚄𝚁𝙲𝙴 𝙾𝙽 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 
-]] 
-keyboard = {}  
-keyboard.inline_keyboard = {
-{{text = '☼︎𝐷𝑒𝑣 𝒋𝒂𝒙𝒔𝒐𝒏☼︎',url="t.me/JAXSO0N"},{text = '☼︎𝐷𝑒𝑣 ᗰ๐ᏂᗩᗰＥᗪ☼︎',url="t.me/JA_XS"}},
-{{text = '  ❨ 𝑺𝑶𝑼𝑹𝑪𝑬 𝑱𝑨𝑿𝑺𝑶𝑵 ❩ ',url="https://t.me/J_ax_s_o_N"}}, 
-}
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/TeST_JXBOT&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
-end
-
-if text == 'السhورس' or text == 'سوkرس' or text == 'يا سjlورس' or text == 'source' then 
+if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or text == 'source' then 
 local Text = [[ 
 ╭──── ● ☆ ● ────╮
 ☆
@@ -2810,7 +2793,7 @@ keyboard.inline_keyboard = {
 {{text = 'اضف البوت لمجمعتك🦅', url="https://t.me/M0o_oO_DY_2bot?startgroup=new"}},  
 } 
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/TeST_JXBOT&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/Mody_23bot&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 
 if text == 'جاكسون' or text == 'المبرمج جاكسون' or text == 'جاكسون مبرمج السورس' or text == 'جاكسون خيري' then
@@ -4185,23 +4168,6 @@ send(msg.chat_id_, msg.id_,' ♲ تم قفل التكرار بالكتم')
 elseif text == 'فتح التكرار' and Mod(msg) then 
 database:hdel(bot_id.."flooding:settings:"..msg.chat_id_ ,"flood")  
 send(msg.chat_id_, msg.id_,' ♲ تم فتح التكرار')
-end
-if text == 'تفعيل الحمايه' and CoSu(msg) and msg.reply_to_message_id_ == 0 then  
-database:set(bot_id.."lock:Bot:kick"..msg.chat_id_,'kick')   
-database:set(bot_id..'Bot:Id:Photo'..msg.chat_id_,true)  
-database:hset(bot_id.."flooding:settings:"..msg.chat_id_ ,"flood",'kick')   
-database:set(bot_id.."lock:Link"..msg.chat_id_,'del')   
-database:set(bot_id.."lock:forward"..msg.chat_id_,'del')   
-database:set(bot_id.."lock:Sticker"..msg.chat_id_,'del')   
-database:set(bot_id.."lock:Animation"..msg.chat_id_,'del')   
-database:set(bot_id.."lock:Video"..msg.chat_id_,'del')   
-database:set(bot_id..'lock:Fars'..msg.chat_id_,true)  
-database:set(bot_id..'lock:Fshar'..msg.chat_id_,true)  
-database:set(bot_id..'lock:edit'..msg.chat_id_,true)  
-database:set(bot_id..'lock:tagrvrbot'..msg.chat_id_,true) 
-tdcli_function ({ID = "GetUser",user_id_ = msg.sender_user_id_},function(arg,data)  
-send(msg.chat_id_, msg.id_,'\n☉┇تم قفل البوتات بالطرد\n☉┇تم وضع الايدي بدون صوره\n☉┇تم قفل التكرار بالطرد\n☉┇تم قفل الروابط\n☉┇تم قفل التوجيه\n☉┇تم قفل الملصقات\n☉┇تم قفل المتحركه\n☉┇تم قفل الفيديو\n☉┇تم قفل السب\n☉┇تم قفل التعديل\n☉┇تم قفل الفارسيه\n☉┇تم قفل التفليش\n\nتم تفعيل الحمايه بواسطه »>['..Rutba(msg.sender_user_id_,msg.chat_id_)..'](T.ME/'..(data.username_ or 'SOPOWERB0T')..')')   
-end,nil) 
 end
 --------------------------------------------------------------------------------------------------------------
 if text == 'تحديث' and DevSoFi(msg) then    
@@ -12502,7 +12468,7 @@ local List = {
 ]],
 [[
 ➞: 𝒔𝒕𝒂𓂅 #stast 𓍯➸💞.
-➞: 𝒖??𝒆𝒓𓂅 #username ??➸💞.
+➞: 𝒖??𝒆𝒓𓂅 #username 𓍯➸💞.
 ➞: 𝒎𝒔𝒈𝒆𓂅 #msgs 𓍯➸💞.
 ➞: 𝒊𝒅 𓂅 #id 𓍯➸💞.
 ➞: 𝗖𝗛 - @J_ax_s_o_N 💞.
@@ -12956,7 +12922,7 @@ Msᴀɢ ~ #msgs
 ]],
 [[
 - ايديڪ  ⁞ #id 💘 ٬
-- يوزرڪ القميل ⁞ #username ?? ٬
+- يوزرڪ القميل ⁞ #username 💘 ٬
 - رسائلڪ  الطيفهہَ ⁞ #msgs 💘 ٬
 - رتبتڪ الحلوه ⁞ #stast  💘٬
 - سحڪاتڪ الفول ⁞ #edit 💘 ٬
@@ -13066,7 +13032,7 @@ Msᴀɢ ~ #msgs
 - 𝑚𝑠𝑔𝑠 ⟿ #msgs
 - 𝑖𝑑 ⟿ #id
 - 𝑒𝑑𝑖𝑡 ⟿ #edit
-- 𝑔𝑎𝑚?? ⟿ #game
+- 𝑔𝑎???? ⟿ #game
 - 𝗖𝗛 - @J_ax_s_o_N ♬
 ]],
 [[
