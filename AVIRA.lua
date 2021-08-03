@@ -12025,8 +12025,8 @@ local Text = [[
  agwa = agwa:gsub("%@", "")
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '  مطور البوت 𖠕 ',url="t.me/"..agwa}},
-{{text = '  اضف البوت الي مجموعتك 𖠕 ',url="t.me/"..us.."?startgroup=start"}},
+{{text = 'مطور البوت',url="t.me/"..agwa}},
+{{text = 'ضف البوت الي مجموعتك',url="t.me/"..us.."?startgroup=start"}},
 }
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/'..us..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 return false
@@ -12432,7 +12432,7 @@ local List = {
 [[
 -›   𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴 . #username 🇪🇬 ꙰ 
 -›   𝚂𝚃𝙰??𝚃 . #stast 🇪🇬 ꙰
--›   𝙸𝙳 . #id 🇪🇬 ꙰ 
+-›   𝙸𝙳 . #id ??🇬 ꙰ 
 -›   𝙶𝙼𝙰𝚂 . #stast 🇪🇬 ꙰ 
 -›   𝙼𝚂𝙶𝚂 . #msgs 🇪🇬 ꙰
 -›   ??𝗛 - @J_ax_s_o_N 🇪🇬 ꙰.
