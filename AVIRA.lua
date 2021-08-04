@@ -15508,6 +15508,19 @@ xl = ' ※ '..text..' ★ \n '..sendnuj..'.'
 send(msg.chat_id_, msg.id_,xl) 
 database:del(bot_id..":"..msg.sender_user_id_..":rkko_Bots"..msg.chat_id_)
 end
+if text == 'تويت بالصور' or text == 'كت تويت بالصوره' or text == 'تويت بالصوره' then
+local Text =[[
+✨🎇
+]]
+keyboard = {} 
+keyboard.inline_keyboard = {
+{{text = 'Ｓ๐ＵᎡϹＥ ỌＬᏐＶＥᎡ',url="t.me/J_a_xs_o_N"}},
+}
+M = math.random(2,29)
+local msg_id = msg.id_/2097152/0.5
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/wffhvv/'..M..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+end
+----
 if text == "نسبه الانوثه" or text == "نسبه انوثه" and msg.reply_to_message_id_ ~= 0 and Addictive(msg) then
 if not database:get(bot_id..'Cick:ano'..msg.chat_id_) then
 database:set(bot_id..":"..msg.sender_user_id_..":ano_Bots"..msg.chat_id_,"sendanoe")
