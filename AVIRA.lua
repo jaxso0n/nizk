@@ -11596,7 +11596,7 @@ keyboard.inline_keyboard = {
 {text = 'الـمـطـور', url="http://t.me/"..sudos.UserName},
 },
 {
-{text = 'اضف البوت الي مجموعتك ' ,url="t.me/"..dofile("./AVIRA.lua").botUserName.."?startgroup=start"},
+{text = 'اضف البوت الي مجموعتك ' ,url="t.me/"..dofile("./vvvvvvInfo.lua").botUserName.."?startgroup=start"},
 },
 }
 local function getpro(extra, result, success) 
@@ -11618,7 +11618,7 @@ keyboard.inline_keyboard = {
 {text = 'الـمـطـور', url="http://t.me/"..sudos.UserName},
 },
 {
-{text = 'اضف البوت الي مجموعتك ' ,url="t.me/"..dofile("./AVIRA.lua").botUserName.."?startgroup=start"},
+{text = 'اضف البوت الي مجموعتك ' ,url="t.me/"..dofile("./vvvvvvInfo.lua").botUserName.."?startgroup=start"},
 },
 }
 local function getpro(extra, result, success) 
@@ -11641,7 +11641,7 @@ keyboard.inline_keyboard = {
 {text = 'الـمـطـور', url="http://t.me/"..sudos.UserName},
 },
 {
-{text = 'اضف البوت الي مجموعتك ' ,url="t.me/"..dofile("./AVIRA.lua").botUserName.."?startgroup=start"},
+{text = 'اضف البوت الي مجموعتك ' ,url="t.me/"..dofile("./vvvvvvInfo.lua").botUserName.."?startgroup=start"},
 },
 }
 local function getpro(extra, result, success) 
@@ -11664,7 +11664,7 @@ keyboard.inline_keyboard = {
 {text = 'الـمـطـور', url="http://t.me/"..sudos.UserName},
 },
 {
-{text = 'اضف البوت الي مجموعتك ' ,url="t.me/"..dofile("./AVIRA.lua").botUserName.."?startgroup=start"},
+{text = 'اضف البوت الي مجموعتك ' ,url="t.me/"..dofile("./vvvvvvInfo.lua").botUserName.."?startgroup=start"},
 },
 }
 local function getpro(extra, result, success) 
@@ -11687,7 +11687,7 @@ keyboard.inline_keyboard = {
 {text = 'الـمـطـور', url="http://t.me/"..sudos.UserName},
 },
 {
-{text = 'اضف البوت الي مجموعتك ' ,url="t.me/"..dofile("./AVIRA.lua").botUserName.."?startgroup=start"},
+{text = 'اضف البوت الي مجموعتك ' ,url="t.me/"..dofile("./vvvvvvInfo.lua").botUserName.."?startgroup=start"},
 },
 }
 local function getpro(extra, result, success) 
@@ -11710,7 +11710,7 @@ keyboard.inline_keyboard = {
 {text = 'الـمـطـور', url="http://t.me/"..sudos.UserName},
 },
 {
-{text = 'اضف البوت الي مجموعتك ' ,url="t.me/"..dofile("./AVIRA.lua").botUserName.."?startgroup=start"},
+{text = 'اضف البوت الي مجموعتك ' ,url="t.me/"..dofile("./vvvvvvInfo.lua").botUserName.."?startgroup=start"},
 },
 }
 local function getpro(extra, result, success) 
@@ -11733,7 +11733,7 @@ keyboard.inline_keyboard = {
 {text = 'الـمـطـور', url="http://t.me/"..sudos.UserName},
 },
 {
-{text = 'اضف البوت الي مجموعتك ' ,url="t.me/"..dofile("./AVIRA.lua").botUserName.."?startgroup=start"},
+{text = 'اضف البوت الي مجموعتك ' ,url="t.me/"..dofile("./vvvvvvInfo.lua").botUserName.."?startgroup=start"},
 },
 }
 local function getpro(extra, result, success) 
@@ -11756,7 +11756,7 @@ keyboard.inline_keyboard = {
 {text = 'الـمـطـور', url="http://t.me/"..sudos.UserName},
 },
 {
-{text = 'اضف البوت الي مجموعتك ' ,url="t.me/"..dofile("./AVIRA.lua").botUserName.."?startgroup=start"},
+{text = 'اضف البوت الي مجموعتك ' ,url="t.me/"..dofile("./vvvvvvInfo.lua").botUserName.."?startgroup=start"},
 },
 }
 local function getpro(extra, result, success) 
@@ -11779,7 +11779,7 @@ keyboard.inline_keyboard = {
 {text = 'الـمـطـور', url="http://t.me/"..sudos.UserName},
 },
 {
-{text = 'اضف البوت الي مجموعتك ' ,url="t.me/"..dofile("./AVIRA.lua").botUserName.."?startgroup=start"},
+{text = 'اضف البوت الي مجموعتك ' ,url="t.me/"..dofile("./vvvvvvInfo.lua").botUserName.."?startgroup=start"},
 },
 }
 local function getpro(extra, result, success) 
@@ -11802,7 +11802,7 @@ keyboard.inline_keyboard = {
 {text = 'الـمـطـور', url="http://t.me/"..sudos.UserName},
 },
 {
-{text = 'اضف البوت الي مجموعتك ' ,url="t.me/"..dofile("./AVIRA.lua").botUserName.."?startgroup=start"},
+{text = 'اضف البوت الي مجموعتك ' ,url="t.me/"..dofile("./vvvvvvInfo.lua").botUserName.."?startgroup=start"},
 },
 }
 local function getpro(extra, result, success) 
@@ -11825,7 +11825,7 @@ keyboard.inline_keyboard = {
 {text = 'الـمـطـور', url="http://t.me/"..sudos.UserName},
 },
 {
-{text = 'اضف البوت الي مجموعتك ' ,url="t.me/"..dofile("./AVIRA.lua").botUserName.."?startgroup=start"},
+{text = 'اضف البوت الي مجموعتك ' ,url="t.me/"..dofile("./vvvvvvInfo.lua").botUserName.."?startgroup=start"},
 },
 }
 local function getpro(extra, result, success) 
@@ -15139,7 +15139,7 @@ local Teext =[[
 ◉اسمي ← المطور  
 ◉كشف ~ بالرد بالمعرف
 ◉قول + كلمه
-⩹━━━━⊶❲¹𝐎𝐋𝐈𝐕𝐄𝐑  ¹❳⊷━━━━⩺
+⩹━━━━⊶❲¹𝐎𝐋𝐈𝐕𝐄??  ¹❳⊷━━━━⩺
 ◉اسم البوت + الامر ↑↓
 ⩹━━━━⊶❲¹𝐎𝐋𝐈𝐕𝐄𝐑  ¹❳⊷━━━━⩺
 ◉بوسه بالرد 
