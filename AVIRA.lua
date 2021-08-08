@@ -11590,7 +11590,7 @@ end
 if text == "رتبتي" or text ==  'رتبتي'  then
 local rtp = Rutba(msg.sender_user_id_,msg.chat_id_)
 local AVIRA_Msg = {
- رتبتك في البوت هي  ..rtp..  🙈💗 ,
+ 'رتبتك في البوت هي  '..rtp..' 🙈' ,
 }
 
 rtp = AVIRA_Msg[math.random(#AVIRA_Msg)] 
@@ -11598,14 +11598,14 @@ local msg_id = msg.id_/2097152/0.5
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text =  قناه السورس , url="http://t.me/J_ax_s_o_N},
+{text =  'قناه السورس' , url="http://t.me/J_ax_s_o_N},
 },
 }
 local function getpro(extra, result, success) 
 if result.photos_[0] then 
-https.request("https://api.telegram.org/bot"..token.. /sendPhoto?chat_id=  .. msg.chat_id_ ..  &photo= ..result.photos_[0].sizes_[1].photo_.persistent_id_.. &caption=  .. URL.escape(Namebot).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..' /sendPhoto?chat_id='  .. msg.chat_id_ ..  '&photo=' ..result.photos_[0].sizes_[1].photo_.persistent_id_.. '&caption='  .. URL.escape(Namebot).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 else 
-send(msg.chat_id_, msg.id_,  رتبتك في البوت ←  ..rtp) 
+send(msg.chat_id_, msg.id_, ' رتبتك في البوت ←  '..rtp) 
 end 
 end 
 tdcli_function ({ ID = "GetUserProfilePhotos", user_id_ = bot_id, offset_ = 0, limit_ = 1 }, getpro, nil) 
