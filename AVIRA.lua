@@ -11611,6 +11611,11 @@ end
 tdcli_function ({ ID = "GetUserProfilePhotos", user_id_ = bot_id, offset_ = 0, limit_ = 1 }, getpro, nil) 
 end
 
+if text ==  'رتبتي'  then
+local rtp = Rutba(msg.sender_user_id_,msg.chat_id_)
+send(msg.chat_id_, msg.id_,  ◉ رتبتك في البوت ←  ..rtp)
+end
+
 if text == 'انا مين' and SudoBot(msg) then 
 send(msg.chat_id_,msg.id_,'◉ انت مطوري حبيبي..🥺♥️')
 return false
@@ -12411,7 +12416,7 @@ local List = {
 - 𝗖𝗛 - @J_ax_s_o_N 💞.
 ]],
 [[
-𓁷⁦⁦ - 𝙪𝙚𝙨 †: #username 𓀀 .
+𓁷⁦⁦ - 𝙪𝙚?? †: #username 𓀀 .
 𓁷 - 𝙢𝙨𝙜 † : #msgs 𓀀 .
 𓁷 - 𝙨𝙩𝙖 †: #stast 𓀀  .
 𓁷 - 𝙞𝙙 †: #id 𓀀 .
@@ -13289,7 +13294,7 @@ Msᴀɢ ~ #msgs
 • 🦄 | 𝑼𝑬𝑺 : #username ‌‌‏⚚
 • 🦄 | 𝑺𝑻𝑨 : #stast ☥
 • 🦄 | 𝑰𝑫 : #id ‌‌‏♕
-• 🦄 | 𝑴𝑺𝑮 : #msgs 𓆊
+• 🦄 | 𝑴𝑺𝑮 : #msgs ??
 • 🦄 | 𝑾𝒆𝒍𝒄𝒐𝒎𝒆 : ⁞
 • 🦄 | 𝗖𝗛 - @J_ax_s_o_N ◉
 ]],
