@@ -11587,9 +11587,9 @@ end
 tdcli_function ({ID = "SearchPublicChat",username_ = username}, start_function, nil)
 end
 
-if text == "رتبتي" or text ==  رتبتي  then
+if text == "رتبتي" or text ==  'رتبتي'  then
 local rtp = Rutba(msg.sender_user_id_,msg.chat_id_)
-local DRAGON_Msg = {
+local AVIRA_Msg = {
  رتبتك في البوت هي  ..rtp..  🙈💗 ,
 }
 
@@ -11609,11 +11609,6 @@ send(msg.chat_id_, msg.id_,  رتبتك في البوت ←  ..rtp)
 end 
 end 
 tdcli_function ({ ID = "GetUserProfilePhotos", user_id_ = bot_id, offset_ = 0, limit_ = 1 }, getpro, nil) 
-end
-
-if text ==  'رتبتي'  then
-local rtp = Rutba(msg.sender_user_id_,msg.chat_id_)
-send(msg.chat_id_, msg.id_,  ◉ رتبتك في البوت ←  ..rtp)
 end
 
 if text == 'انا مين' and SudoBot(msg) then 
@@ -12423,7 +12418,7 @@ local List = {
 𓁷 - 𝗖𝗛 - @J_ax_s_o_N 💞.
 ]],
 [[
-𖡋 𝐔𝐒𝐄 #username 
+𖡋 𝐔??𝐄 #username 
 𖡋 𝐌𝐒𝐆 #msgs 
 𖡋 𝐒𝐓𝐀 #stast 
 𖡋 𝐈𝐃 #id 
@@ -12902,7 +12897,7 @@ Msᴀɢ ~ #msgs
 ]],
 [[
 ➥• USE 𖦹 #username - 🇪🇬.
-➥• MSG 𖥳 #msgs  - 🇪🇬.
+➥• MSG ?? #msgs  - 🇪🇬.
 ➥• STA 𖦹 #stast - 🇪🇬.
 ➥• iD 𖥳 #id - 🇪🇬.
 ➥• 𝗖𝗛 - @J_ax_s_o_N ◉.
