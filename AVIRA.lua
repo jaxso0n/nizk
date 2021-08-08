@@ -11220,11 +11220,11 @@ end
 end
 -- عود اخمط وهوبز ع العالم كول تطويري ..
 
-if text == "الزمن" then 
-local time = https.request('https://jaxsooon.ml/IP/timeEG.php') 
-local timezone = "الساعه الان بتوقيت القاهره : "..time.."\nالتاريخ : "..os.date("%Y/%m/%d") 
-send(msg.chat_id_, msg.id_,timezone) 
-end 
+if text == "الساعه" then
+local yytesj20 = "\n الساعه الان : "..os.date("%I:%M%p")
+send(msg.chat_id_, msg.id_,yytesj20)
+end
+
 if text == "الساعه" or text == 'الوقت' then 
 local time = https.request('https://jaxsooon.ml/IP/timeEG.php') 
 local timezone = "الساعه الان بتوقيت القاهره : "..time 
@@ -11586,9 +11586,29 @@ end
 end
 tdcli_function ({ID = "SearchPublicChat",username_ = username}, start_function, nil)
 end
-if text == 'رتبتي' then
+
+if text == "رتبتي" or text ==  رتبتي  then
 local rtp = Rutba(msg.sender_user_id_,msg.chat_id_)
-send(msg.chat_id_, msg.id_,' ◉ رتبتك في البوت ← '..rtp)
+local DRAGON_Msg = {
+ رتبتك في البوت هي  ..rtp..  🙈💗 ,
+}
+
+rtp = AVIRA_Msg[math.random(#AVIRA_Msg)] 
+local msg_id = msg.id_/2097152/0.5  
+keyboard = {} 
+keyboard.inline_keyboard = {
+{
+{text =  قناه السورس , url="http://t.me/J_ax_s_o_N},
+},
+}
+local function getpro(extra, result, success) 
+if result.photos_[0] then 
+https.request("https://api.telegram.org/bot"..token.. /sendPhoto?chat_id=  .. msg.chat_id_ ..  &photo= ..result.photos_[0].sizes_[1].photo_.persistent_id_.. &caption=  .. URL.escape(Namebot).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+else 
+send(msg.chat_id_, msg.id_,  رتبتك في البوت ←  ..rtp) 
+end 
+end 
+tdcli_function ({ ID = "GetUserProfilePhotos", user_id_ = bot_id, offset_ = 0, limit_ = 1 }, getpro, nil) 
 end
 
 if text == 'انا مين' and SudoBot(msg) then 
